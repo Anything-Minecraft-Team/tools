@@ -1,0 +1,2735 @@
+[
+    {
+        "host": "Birdflop",
+        "website": "https://www.birdflop.com",
+        "plans": [
+            {
+                "plan": "EU Premium Hosting",
+                "location": [
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 200,
+                    "storagetype": "NVMe SSD",
+                    "backups": 3
+                },
+                "ram": [
+                    4,
+                    6,
+                    8,
+                    12,
+                    16,
+                    20
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 3900"
+                ],
+                "ddosprotection": "?",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "US Premium Hosting",
+                "location": [
+                    "us"
+                ],
+                "price": {
+                    "permonth": 3,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 200,
+                    "storagetype": "NVMe SSD",
+                    "backups": 3
+                },
+                "ram": [
+                    4,
+                    6,
+                    8,
+                    12,
+                    16,
+                    20
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 3900xt"
+                ],
+                "ddosprotection": "10gbps",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "US Elite Hosting",
+                "location": [
+                    "us"
+                ],
+                "price": {
+                    "permonth": 3,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 200,
+                    "storagetype": "NVMe SSD",
+                    "backups": 3
+                },
+                "ram": [
+                    8,
+                    12,
+                    16,
+                    20
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 5900x",
+                    "ryzen 9 5950x"
+                ],
+                "ddosprotection": "1tbps",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "PebbleHost",
+        "website": "https://pebblehost.com",
+        "plans": [
+            {
+                "plan": "Budget",
+                "location": [
+                    "na",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 1,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    16,
+                    25
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel xeon e5-1630v3"
+                ],
+                "ddosprotection": "160gbps",
+                "uplink": "250mbps",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Premium",
+                "location": [
+                    "na",
+                    "eu",
+                    "au"
+                ],
+                "price": {
+                    "permonth": 2.25,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    16,
+                    25
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i9-9900k",
+                    "xeon e-2288g"
+                ],
+                "ddosprotection": "480gbps",
+                "uplink": "2gbps",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Bloom.Host",
+        "website": "https://bloom.host/minecraft",
+        "plans": [
+            {
+                "plan": "Performance",
+                "location": [
+                    "us",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 360,
+                    "storagetype": "NVMe SSD",
+                    "backups": 8
+                },
+                "ram": [
+                    8,
+                    12,
+                    16,
+                    20,
+                    24
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 3900",
+                    "ryzen 9 3950x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Performance+",
+                "location": [
+                    "us",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 2.75,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 450,
+                    "storagetype": "NVMe SSD",
+                    "backups": 8
+                },
+                "ram": [
+                    8,
+                    12,
+                    16,
+                    20,
+                    24
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 5950x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "RetroNode",
+        "website": "https://retronode.net",
+        "plans": [
+            {
+                "plan": "Budget",
+                "location": [
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 1,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 75,
+                    "storagetype": "NVMe SSD",
+                    "backups": 28
+                },
+                "ram": [
+                   1,
+                   2,
+                   3,
+                   4,
+                   6,
+                   8,
+                   10,
+                   12,
+                   16,
+                   32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 5 3600"
+                ],
+                "ddosprotection": "?",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Premium",
+                "location": [
+                    "na",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 28
+                },
+                "ram": [
+                   1,
+                   2,
+                   3,
+                   4,
+                   6,
+                   8,
+                   10,
+                   12,
+                   16,
+                   32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "i9-9900k",
+                    "ryzen 7 5800x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Extreme",
+                "location": [
+                    "na",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 2.25,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 28
+                },
+                "ram": [
+                   8,
+                   12,
+                   16,
+                   20,
+                   24
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 5950x",
+                    "ryzen 9 5900x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "10gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Sparked Host",
+        "website": "https://sparkedhost.com",
+        "plans": [
+            {
+                "plan": "Budget",
+                "location": [
+                    "eu",
+                    "na",
+                    "au"
+                ],
+                "price": {
+                    "permonth": 1,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 50,
+                    "storagetype": "SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "dual intel xeon e5-2690"
+                ],
+                "ddosprotection": "120gbps",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": true
+            },
+            {
+                "plan": "Enterprise",
+                "location": [
+                    "na",
+                    "eu",
+                    "au"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 100,
+                    "storagetype": "NVMe SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    0.5,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 7 3700x"
+                ],
+                "ddosprotection": "120gbps",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": true
+            },
+            {
+                "plan": "Extreme",
+                "location": [
+                    "na",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 4,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 250,
+                    "storagetype": "NVMe SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    0.5,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel core i9-10900k"
+                ],
+                "ddosprotection": "120gbps",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": true
+            }
+        ]
+    },
+    {
+        "host": "WinterNode",
+        "website": "https://winternode.com",
+        "plans": [
+            {
+                "plan": "Premium",
+                "location": [
+                    "eu",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 1.89,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    10,
+                    12,
+                    15,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 7 3700x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "GGServers",
+        "website": "https://ggservers.com/minecrafthosting",
+        "plans": [
+            {
+                "plan": "Standard",
+                "location": [
+                    "eu",
+                    "na"
+                ],
+                "price": {
+                    "permonth": 3,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    12
+                ],
+                "cores": 0,
+                "cpu": [
+                    "e5-1650v3"
+                ],
+                "ddosprotection": "480gbps",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Premium",
+                "location": [
+                    "eu",
+                    "na",
+                    "au"
+                ],
+                "price": {
+                    "permonth": 6,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    12
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i7-7700k",
+                    "i7-6700k"
+                ],
+                "ddosprotection": "480gbps",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "GameHostNetwork",
+        "website": "https://gamehost.network/minecraft",
+        "plans": [
+            {
+                "plan": "Plans",
+                "location": [
+                    "eu",
+                    "na"
+                ],
+                "price": {
+                    "permonth": 2.75,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 200,
+                    "storagetype": "NVMe SSD",
+                    "backups": 3
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    12
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 5950x"
+                ],
+                "ddosprotection": "3500gbps",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "EnviroMC",
+        "website": "https://enviromc.com",
+        "plans": [
+            {
+                "plan": "Budget",
+                "location": [
+                    "eu",
+                    "na"
+                ],
+                "price": {
+                    "permonth": 1,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 5 3600",
+                    "intel xeon 2276g"
+                ],
+                "ddosprotection": "3.5tbps",
+                "uplink": "10gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Premium",
+                "location": [
+                    "eu",
+                    "na",
+                    "as"
+                ],
+                "price": {
+                    "permonth": 2.5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 14
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    16,
+                    25
+                ],
+                "cores": 0,
+                "cpu": [
+                    "i9-9900k",
+                    "intel xeon 2288g"
+                ],
+                "ddosprotection": "3.5tbps",
+                "uplink": "10gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "CryHosting",
+        "website": "https://cryhosting.net",
+        "plans": [
+            {
+                "plan": "Minecraft",
+                "location": [
+                    "eu",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "NVMe SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    0.5,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 5950x",
+                    "intel i9-9900k"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Mad Hosting",
+        "website": "https://madhosting.tech",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 2.99,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 8
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 5 3600"
+                ],
+                "ddosprotection": "1gbps",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": true
+            }
+        ]
+    },
+    {
+        "host": "Apex Hosting",
+        "website": "https://apexminecrafthosting.com/pricing",
+        "plans": [
+            {
+                "plan": "Premium Hosting",
+                "location": [
+                    "eu",
+                    "na",
+                    "au",
+                    "sa",
+                    "as",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 60
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    10
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel e-2288g",
+                    "ryzen 7 3800x",
+                    "intel e-2186g",
+                    "e5-2630v4",
+                    "intel e5-2690v2",
+                    "intel e5-2680v2",
+                    "intel i7-7700k",
+                    "intel e-2176g"
+                ],
+                "ddosprotection": "220gbps",
+                "uplink": "1gbps",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": true
+            }
+        ]
+    },
+    {
+        "host": "ShockByte Hosting",
+        "website": "https://shockbyte.com",
+        "plans": [
+            {
+                "plan": "Plan",
+                "location": [
+                    "eu",
+                    "na",
+                    "au",
+                    "as"
+                ],
+                "price": {
+                    "permonth": 2.5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "NVMe SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ],
+                "cores": 0,
+                "cpu": [
+                    "xeon e5-1650v4"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?=multicraft",
+                "dedicatedip": true,
+                "sla": true
+            }
+        ]
+    },
+    {
+        "host": "Bisect Hosting",
+        "website": "https://www.bisecthosting.com/minecraft-server-hosting.php",
+        "plans": [
+            {
+                "plan": "Budget Package",
+                "location": [
+                    "eu",
+                    "na"
+                ],
+                "price": {
+                    "permonth": 2.99,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "NVMe SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16,
+                    18,
+                    20,
+                    22,
+                    24,
+                    26,
+                    28,
+                    30,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "?"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Premium Package",
+                "location": [
+                    "eu",
+                    "na"
+                ],
+                "price": {
+                    "permonth": 4.99,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "NVMe SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16,
+                    18,
+                    20,
+                    22,
+                    24,
+                    26,
+                    28,
+                    30,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "?"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "ForestRacks",
+        "website": "https://my.forestracks.com/store/minecraft-servers",
+        "plans": [
+            {
+                "plan": "Minecraft Servers",
+                "location": [
+                    "eu",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 1.5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 50,
+                    "storagetype": "NVMe SSD",
+                    "backups": 3
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    6,
+                    8,
+                    12,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "dual xeon x5687",
+                    "dual xeon x5677",
+                    "ryzen 9 3900",
+                    "ryzen 9 5950x"
+                ],
+                "ddosprotection": "100Gbps",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "AAGameHosting",
+        "website": "https://aagamehosting.com/en-us/game-servers/minecraft",
+        "plans": [
+            {
+                "plan": "Minecraft Servers",
+                "location": [
+                    "eu",
+                    "na",
+                    "au",
+                    "as"
+                ],
+                "price": {
+                    "permonth": 4.72,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "xeon"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": false,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "AccurateNode",
+        "website": "https://accuratenode.com/mc",
+        "plans": [
+            {
+                "plan": "Minecraft Servers",
+                "location": [
+                    "eu",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 0.75,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 10,
+                    "storagetype": "NVMe SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen",
+                    "intel i7"
+                ],
+                "ddosprotection": "40gbps",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": false,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Akliz",
+        "website": "https://www.akliz.net/pricing",
+        "plans": [
+            {
+                "plan": "Adverturer Tier",
+                "location": [
+                    "eu",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    2,
+                    3
+                ],
+                "cores": 0,
+                "cpu": [
+                    "xeon e-2288g"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": false,
+                "sla": false
+            },
+            {
+                "plan": "Titan Tier",
+                "location": [
+                    "us"
+                ],
+                "price": {
+                    "permonth": 5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "SSD",
+                    "backups": 2
+                },
+                "ram": [
+                    6,
+                    8,
+                    12
+                ],
+                "cores": 0,
+                "cpu": [
+                    "xeon e-2288g"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": false,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "AleForge",
+        "website": "https://aleforge.net/games/minecraft",
+        "plans": [
+            {
+                "plan": "Minecraft Servers",
+                "location": [
+                    "eu",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 4.5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 10
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "?"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "AnvilNode",
+        "website": "https://www.anvilnode.com/minecraft",
+        "plans": [
+            {
+                "plan": "Premium Minecraft",
+                "location": [
+                    "eu",
+                    "us",
+                    "au",
+                    "as"
+                ],
+                "price": {
+                    "permonth": 4,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 10
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ],
+                "cores": 0,
+                "cpu": [
+                    "xeon"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Appolo Nodes",
+        "website": "https://apollonodes.com/spigot",
+        "plans": [
+            {
+                "plan": "Lite",
+                "location": [
+                    "?"
+                ],
+                "price": {
+                    "permonth": 2.45,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 12,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel xeon"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Premium",
+                "location": [
+                    "?"
+                ],
+                "price": {
+                    "permonth": 4.2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 80,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1.5,
+                    2.5,
+                    3.5,
+                    4,5,
+                    6.5,
+                    8.5
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel xeon"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Ultra",
+                "location": [
+                    "?"
+                ],
+                "price": {
+                    "permonth": 8.4,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 90,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    3,
+                    5,
+                    8
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i7"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Ascend Host",
+        "website": "https://ascend.host/gamehosting.html",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "?"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 48,
+                    "storagetype": "NVMe SSD",
+                    "backups": 99999
+                },
+                "ram": [
+                    2,
+                    4,
+                    6,
+                    8
+                ],
+                "cores": 0,
+                "cpu": [
+                    "xeon"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Ascend Servers",
+        "website": "https://www.ascendservers.com/game-servers/minecraft",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "au",
+                    "us",
+                    "na",
+                    "as",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    0.5,
+                    1,
+                    2,
+                    3,
+                    4,
+                    8,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "?"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Aternos",
+        "website": "https://aternos.org",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 0,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1.5
+                ],
+                "cores": 0,
+                "cpu": [
+                    "?"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": false,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "AuroraHosts",
+        "website": "https://www.aurorahosts.com/minecraft",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 1.5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVME SSD",
+                    "backups": 5
+                },
+                "ram": [
+                    1.5
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i7-6700k"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": false,
+                "sla": true
+            }
+        ]
+    },
+    {
+        "host": "BackSping Hosting",
+        "website": "https://backspin-hosting.com",
+        "plans": [
+            {
+                "plan": "HDD Minecraft",
+                "location": [
+                    "?"
+                ],
+                "price": {
+                    "permonth": 1,
+                    "currency": "EUR"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "HDD",
+                    "backups": 1
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i7-7700"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "SSD Minecraft",
+                "location": [
+                    "?"
+                ],
+                "price": {
+                    "permonth": 1,
+                    "currency": "EUR"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 2
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen epyc 7502p"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "BeastNode",
+        "website": "https://www.beastnode.com",
+        "plans": [
+            {
+                "plan": "Budget Minecraft",
+                "location": [
+                    "na",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 3,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 20,
+                    "storagetype": "NVME SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1.5
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel xeon"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Premium Minecraft",
+                "location": [
+                    "na",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 10,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 20,
+                    "storagetype": "NVME SSD",
+                    "backups": 5
+                },
+                "ram": [
+                    1,
+                    1.5,
+                    2,
+                    2.5,
+                    3,
+                    3.5,
+                    4,
+                    5,
+                    6,
+                    8,
+                    10,
+                    12
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel xeon"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "MixmlHosting",
+        "website": "https://mixmlhosting.com/minecraftnew.php",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "eu",
+                    "au",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 999
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i9-9900k",
+                    "ryzen 9 5900x",
+                    "intel i7-7700k"
+                ],
+                "ddosprotection": "250gbps",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": true
+            },
+            {
+                "plan": "Minecraft Hosting (Other)",
+                "location": [
+                    "eu",
+                    "au",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 2.5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    16,
+                    24,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i9-9900k",
+                    "ryzen 9 5900x",
+                    "intel i7-7700k"
+                ],
+                "ddosprotection": "1tbps",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": true
+            }
+        ]
+    },
+    {
+        "host": "DedicatedMC",
+        "website": "https://dedicatedmc.io/minecraft",
+        "plans": [
+            {
+                "plan": " Basic",
+                "location": [
+                    "eu",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 50,
+                    "storagetype": "NVMe SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    4
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel xeon e5-2690"
+                ],
+                "ddosprotection": "?",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": false,
+                "sla": false
+            },
+            {
+                "plan": " Budget",
+                "location": [
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 2.35,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 70,
+                    "storagetype": "NVMe SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    6,
+                    8,
+                    10
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 5 3600"
+                ],
+                "ddosprotection": "?",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": " Premium",
+                "location": [
+                    "eu",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 3,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 70,
+                    "storagetype": "NVMe SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    8
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 5 3600",
+                    "ryzen 9 3950x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": " High End",
+                "location": [
+                    "eu",
+                    "us",
+                    "au"
+                ],
+                "price": {
+                    "permonth": 3.6,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    10,
+                    12,
+                    14,
+                    16,
+                    18,
+                    20
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 5950x",
+                    "ryzen 9 3900x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "BlueFang Solutions",
+        "website": "https://www.bluefangsolutions.com/shop/minecraft",
+        "plans": [
+            {
+                "plan": "Minecraft",
+                "location": [
+                    "eu",
+                    "na",
+                    "us",
+                    "au",
+                    "as",
+                    "sa"
+                ],
+                "price": {
+                    "permonth": 5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    1.5,
+                    2,
+                    2.5,
+                    3,
+                    3.5,
+                    4,
+                    4.5,
+                    5,
+                    5.5,
+                    6,
+                    6.5,
+                    7,
+                    7.5,
+                    8
+                ],
+                "cores": 0,
+                "cpu": [
+                    "?"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "custom",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Slashy",
+        "website": "https://slashy.host/minecraft",
+        "plans": [
+            {
+                "plan": "Budget",
+                "location": [
+                    "eu",
+                    "na"
+                ],
+                "price": {
+                    "permonth": 1.5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 10
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i7-6700k"
+                ],
+                "ddosprotection": "1+tbps",
+                "uplink": "250mbps",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": true
+            },
+            {
+                "plan": "Premium",
+                "location": [
+                    "eu",
+                    "na"
+                ],
+                "price": {
+                    "permonth": 2.99,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 10
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i7-7700k"
+                ],
+                "ddosprotection": "1+tbps",
+                "uplink": "500mbps",
+                "panel": "multicraft",
+                "dedicatedip": true,
+                "sla": true
+            }
+        ]
+    },
+    {
+        "host": "Citadel Servers",
+        "website": "https://citadelservers.com/game-servers/minecraft-game-hosting",
+        "plans": [
+            {
+                "plan": "Minecraft Game Hosting",
+                "location": [
+                    "eu",
+                    "us",
+                    "au",
+                    "as"
+                ],
+                "price": {
+                    "permonth": 5.58,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 200,
+                    "storagetype": "NVMe SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    0.5,
+                    1,
+                    2,
+                    3,
+                    4,
+                    8,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "xeon"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "PixelPond.io",
+        "website": "https://pixelpond.io/portal/store",
+        "plans": [
+            {
+                "plan": "Minecraft Java Edition",
+                "location": [
+                    "au",
+                    "nz"
+                ],
+                "price": {
+                    "permonth": 5.5,
+                    "currency": "AUD"
+                },
+                "storage": {
+                    "storage": 100,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 5950x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": false,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Dashflo",
+        "website": "https://dashflo.net/store/minecraft",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "eu",
+                    "na",
+                    "us"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "EUR"
+                },
+                "storage": {
+                    "storage": 100,
+                    "storagetype": "SSD",
+                    "backups": 4
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 5900x"
+                ],
+                "ddosprotection": "250gbps",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Curia Hosting",
+        "website": "https://www.curiahosting.co.za/",
+        "plans": [
+            {
+                "plan": "Minecraft Java Edition",
+                "location": [
+                    "af"
+                ],
+                "price": {
+                    "permonth": 100,
+                    "currency": "RAND"
+                },
+                "storage": {
+                    "storage": 1152,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    2,
+                    4,
+                    6,
+                    8,
+                    12
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel xeon e3-1230"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": false,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "HumbleServers",
+        "website": "https://humbleservers.com/minecraft.html",
+        "plans": [
+            {
+                "plan": "Budget",
+                "location": [
+                    "eu",
+                    "na"
+                ],
+                "price": {
+                    "permonth": 0.75,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 100,
+                    "storagetype": "NVMe SSD",
+                    "backups": 14
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    16,
+                    18,
+                    20,
+                    22,
+                    24,
+                    26,
+                    28,
+                    30,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 5 3600",
+                    "intel xeon e5"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Budget",
+                "location": [
+                    "eu",
+                    "na",
+                    "as"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 28
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16,
+                    18,
+                    20,
+                    22,
+                    24,
+                    26,
+                    28,
+                    30,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel e2288g",
+                    "intel i9-9900K"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Ultimate",
+                "location": [
+                    "eu",
+                    "na"
+                ],
+                "price": {
+                    "permonth": 2.75,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "NVMe SSD",
+                    "backups": 28
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    12,
+                    16,
+                    24,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 5950x",
+                    "ryzen 9 5900x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "VersatileNode",
+        "website": "https://versatilenode.com/minecraft-hosting",
+        "plans": [
+            {
+                "plan": "Budget",
+                "location": [
+                    "na",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 1.5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 50,
+                    "storagetype": "SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i7-6700k",
+                    "intel i7-7700k"
+                ],
+                "ddosprotection": "?",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            },
+            {
+                "plan": "Premium",
+                "location": [
+                    "na",
+                    "eu"
+                ],
+                "price": {
+                    "permonth": 2.75,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 50,
+                    "storagetype": "NVMe SSD",
+                    "backups": 7
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i9-9900k"
+                ],
+                "ddosprotection": "?",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Hostilic",
+        "website": "https://www.hostilic.com/billing/index.php?rp=/store/minecraft-budget",
+        "plans": [
+            {
+                "plan": "Minecraft Economy",
+                "location": [
+                    "?"
+                ],
+                "price": {
+                    "permonth": 1.5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    6,
+                    8,
+                    10,
+                    12,
+                    16,
+                    24,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "?"
+                ],
+                "ddosprotection": "1tbps",
+                "uplink": "1gbps",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": true
+            }
+        ]
+    },
+    {
+        "host": "ServerBlend",
+        "website": "https://serverblend.com/best-minecraft-hosting",
+        "plans": [
+            {
+                "plan": "Minecraft Server Hosting",
+                "location": [
+                    "us"
+                ],
+                "price": {
+                    "permonth": 4,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    16
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel xeon"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "multicraft",
+                "dedicatedip": false,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "WitherHosting",
+        "website": "https://witherhosting.com",
+        "plans": [
+            {
+                "plan": "Basic",
+                "location": [
+                    "us",
+                    "na",
+                    "au",
+                    "as"
+                ],
+                "price": {
+                    "permonth": 0.75,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    10,
+                    12,
+                    16,
+                    20
+                ],
+                "cores": 0,
+                "cpu": [
+                    "ryzen 9 3900x",
+                    "ryzen 7 3700x",
+                    "intel i9-10900k",
+                    "intel i7-9700k",
+                    "intel i9-9900k",
+                    "intel i7-7700k",
+                    "ryzen 5 5600x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "pterodactyl",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "Minehut",
+        "website": "https://minehut.com",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "us"
+                ],
+                "price": {
+                    "permonth": 0,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1
+                ],
+                "cores": 0,
+                "cpu": [
+                    "?"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": false,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "ClanWarz",
+        "website": "https://www.clanwarz.com/gameservers/minecraft-servers/",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "na",
+                    "us",
+                    "eu",
+                    "as",
+                    "au"
+                ],
+                "price": {
+                    "permonth": 5,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 50,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                ],
+                "cores": 0,
+                "cpu": [
+                    "?"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "ColourNodes",
+        "website": "https://www.colournodes.com/minecraft",
+        "plans": [
+            {
+                "plan": "Premium Minecraft Hosting",
+                "location": [
+                    "?"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 0,
+                    "storagetype": "SSD",
+                    "backups": 0
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    6,
+                    8,
+                    10
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i7"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "wisp",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    },
+    {
+        "host": "TitanNodes",
+        "website": "link",
+        "plans": [
+            {
+                "plan": "Minecraft Hosting",
+                "location": [
+                    "na",
+                    "us",
+                    "eu",
+                    "au"
+                ],
+                "price": {
+                    "permonth": 2,
+                    "currency": "USD"
+                },
+                "storage": {
+                    "storage": 99999,
+                    "storagetype": "SSD",
+                    "backups": 999
+                },
+                "ram": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    6,
+                    8,
+                    10,
+                    12,
+                    16,
+                    24,
+                    32
+                ],
+                "cores": 0,
+                "cpu": [
+                    "intel i7-9700k",
+                    "intel i7-6700k",
+                    "ryzen 7 3800xt",
+                    "ryzen 7 3700x"
+                ],
+                "ddosprotection": "?",
+                "uplink": "?",
+                "panel": "?",
+                "dedicatedip": true,
+                "sla": false
+            }
+        ]
+    }
+]

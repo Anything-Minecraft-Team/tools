@@ -1,0 +1,45 @@
+{
+    "host": "Host",
+    "website": "link",
+    "plans": [
+        {
+            "plan": "Minecraft Hosting",
+            "location": [
+                "na",
+                "us",
+                "eu"
+            ],
+            "price": {
+                "permonth": 2,
+                "currency": "USD"
+            },
+            "storage": {
+                "storage": 99999,
+                "storagetype": "SSD",
+                "backups": 0
+            },
+            "ram": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                8,
+                10,
+                12,
+                16,
+                24,
+                32
+            ],
+            "cores": 0,
+            "cpu": [
+                "?"
+            ],
+            "ddosprotection": "?",
+            "uplink": "1gbps",
+            "panel": "pterodactyl",
+            "dedicatedip": true,
+            "sla": false
+        }
+    ]
+}
